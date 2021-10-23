@@ -1,2 +1,2 @@
 # CredencialJG
-credencial evento nlw heat
+projeto credencial do evento nlw heat da RocketSeat
