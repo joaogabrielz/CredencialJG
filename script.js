@@ -10,4 +10,4 @@ function textTypeW(element){
     // > para cada = 'forEach' , letra e index
 }
 const texto = document.querySelector('p') // > atribui a variavel texto o elemento <p>
-textTypeW(texto); // > chama a função
+textTypeW(texto); // > chama a função pode ser o mesmo efeito somente trocando p documento.querySelector
