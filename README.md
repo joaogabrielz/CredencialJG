@@ -1,4 +1,4 @@
-# CredencialJG
+# CredencialJG-Nlw-heat-origin
 projeto credencial do evento nlw heat da RocketSeat
 
 # botoes Youtube e Twitter
