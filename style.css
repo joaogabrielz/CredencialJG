@@ -15,17 +15,18 @@
  main{
      background: url(./images/background.svg) no-repeat center/cover;
     /* width:375px;
-     height: 812px; */
+     height: 812px; 
+     min-height: 812px;*/
      width: 100vw;
-     min-height: 812px;
+     
      height: 100vh;
  }
  .container{
-     max-width: 250px;
+    
      margin-left: auto;
      margin-right: auto;
      text-align: center;
-     color:var(--gray)
+     color:var(--gray);
  }
  .avatar{
      width: 10rem;
@@ -72,29 +73,56 @@
      background: url(./images/background.svg) no-repeat cover/center;
     /* width:375px;
      height: 812px; */
-     width: 358px;
-     height:540;
-     padding:33.5rem;
-     
+     width: 380px;
+   
+     height: 650px;
+   
+
     }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color:var(--gray);  
+       
+}
+   
+    .quebra{
+        position: absolute;
+        width:88px;
+        height: 8px;
+        left:  47.1%;/* 753px*/
+        top: 77px;
+   
+
+    /* left: 680px; */
+
+    background: #121214;
+    }
+    .faixa{
+        position: absolute;
+        width: 75px;
+        height: 80px;
+        left:47.5%; /* 760px*/
+        top:0;
+       
+        background: linear-gradient(161.24deg, #FF008E -15.25%, #FFCD1E 111.89%);
+        }
     body{
         background: rgb(17, 17, 17);
     }
     .bg{
         position: absolute;
-    width: 1118px;
-height: 1118px;
-left: 0px;
-top: -100vh;
+         width: 1118px;
+         height: 1118px;
+        left: 0px;
+        top: -100vh;
 
-background: radial-gradient(50% 50% at 50% 50%, #FF3D6E 0%, rgba(18, 18, 20, 0) 100%);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-transform: rotate(-180deg);
+        background: radial-gradient(50% 50% at 50% 50%, #FF3D6E 0%, rgba(18, 18, 20, 0) 100%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(-180deg);
     }
-    .container{
-        min-width:100%;
-       
-    }
+   
 }
  @keyframes piscada{
      0%, 100%{

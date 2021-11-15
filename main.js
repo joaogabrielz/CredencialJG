@@ -1,9 +1,12 @@
 //----------------Mudar Credencial dinamicamente para outras contas..
 const LinksSocialMedia = {
-    github:'wesley180320',
+    //github:'wesley180320'
+    github:'joaogabrielz',
    // youtube:'',
-    facebook:'Wesley_de_Souza',
-    instagram:'wesleyds.souza'
+    //facebook:'Wesley_de_Souza'
+    facebook:'biel.jg',
+    //instagram:'wesleyds.souza
+    instagram:'th3jg'
    // twitter:''
 }
 function changeSocialMediaLinks(){
